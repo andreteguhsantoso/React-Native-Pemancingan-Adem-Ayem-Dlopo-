@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Pemancingan Adem Ayem Dlopo",
+    "slug": "pemancingan-adem-ayem-dlopo",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/nila/brand-adem-ayem-icon.png",
+    "scheme": "ademayemdlopo",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/images/nila/brand-adem-ayem-icon.png",
+      "bundleIdentifier": "com.ademayemdlopo.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.ademayemdlopo.app",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "backgroundColor": "#082F33",
+        "foregroundImage": "./assets/images/nila/brand-adem-ayem-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/nila/brand-adem-ayem-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0C3B3F",
+          "image": "./assets/images/nila/brand-adem-ayem-icon.png",
+          "imageWidth": 132
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Izinkan Adem Ayem memilih foto untuk profil dan galeri pemancingan.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      "expo-image",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4376d29-cae1-4c22-9c8d-e425702d0e75"
+      }
+    }
+  }
+}
